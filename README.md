@@ -1,6 +1,6 @@
 # Thyroid Disease Classification Model
 
-A machine learning project built as part of my coursework (BSc. Computer System Engineering), where I trained and compared classification models to predict thyroid disease from patient clinical data — framed around a healthcare scenario for a company called HealthShield.
+A machine learning project built as part of my coursework (BSc. Computer System Engineering), where I trained and compared classification models to predict thyroid disease from patient clinical data, framed around a healthcare scenario for a company called HealthShield.
 
 > Note: My original Colab notebook was lost, so this repo documents the project using code and output screenshots from my submitted assignment, along with a summary of the approach and results.
 
@@ -19,7 +19,7 @@ Thyroid disorders are common but can be time-consuming to diagnose manually. The
 
 ## Data Cleaning & Preprocessing
 
-- Handled missing values — numerical columns filled with median, categorical columns filled with mode
+- Handled missing values, numerical columns filled with median, categorical columns filled with mode
 - Detected and treated outliers using the IQR method
 - Encoded features: binary encoding, label encoding (target), and one-hot encoding (referral source)
 
