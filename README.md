@@ -14,8 +14,8 @@ Thyroid disorders are common but can be time-consuming to diagnose manually. The
 - Mix of numerical data (age, hormone levels) and categorical data (medical history, referral source, treatment flags)
 - Loaded and explored using Pandas in Google Colab
 
-![Loading the dataset](images/01_load_dataset.png)
-![Dataset shape](images/02_dataset_shape.png)
+![Loading the dataset](01_load_dataset.png)
+![Dataset shape](02_dataset_shape.png)
 
 ## Data Cleaning & Preprocessing
 
@@ -23,8 +23,8 @@ Thyroid disorders are common but can be time-consuming to diagnose manually. The
 - Detected and treated outliers using the IQR method
 - Encoded features: binary encoding, label encoding (target), and one-hot encoding (referral source)
 
-![Handling missing values](images/03_handle_missing_values.png)
-![Visualizing outliers with boxplots](images/05_visualize_outliers.png)
+![Handling missing values](03_handle_missing_values.png)
+![Visualizing outliers with boxplots](05_visualize_outliers.png)
 
 ## Models Trained
 
@@ -34,8 +34,8 @@ I trained and compared three classification algorithms using Scikit-learn:
 - **K-Nearest Neighbors (KNN)**
 - **Random Forest**
 
-![Training Logistic Regression](images/06_train_logistic_regression.png)
-![Generating classification reports](images/07_classification_reports.png)
+![Training Logistic Regression](06_train_logistic_regression.png)
+![Generating classification reports](07_classification_reports.png)
 
 ## Evaluation
 
@@ -47,7 +47,7 @@ Each model was evaluated using accuracy, precision, recall, F1-score, and confus
 | KNN | 0.837 | 0.821 | 0.837 | 0.820 |
 | **Random Forest** | **0.906** | **0.899** | **0.906** | **0.898** |
 
-![Final model comparison](images/04_final_results_comparison.png)
+![Final model comparison](04_final_results_comparison.png)
 
 ## Result
 
